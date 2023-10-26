@@ -20,7 +20,7 @@ const Login = () => {
         .catch((error) =>console.log(error));
     }
     return (
-        <div className="hero h-screen bg-base-200">
+        <div className="hero   mb-10 bg-base-200">
   <div className="hero-content flex-col lg:flex-row ">
     <div className="w-1/2 mr-12">
       <img src={login} alt="" />
